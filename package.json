@@ -1,0 +1,36 @@
+{
+  "name": "bot-tecnology-store",
+  "version": "0.1.0",
+  "description": "servicio para extraer información de los productos que vende tecnology store",
+  "main": "index.js",
+  "scripts": {
+    "test": "node __test__",
+    "build": "npx babel core --out-dir lib",
+    "start": "npx babel-node ./core/main.js --inspect",
+    "demo": "node ./lib/main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/juandav/bot-tecnology-store.git"
+  },
+  "keywords": [
+    "scrap",
+    "Tecnology",
+    "Store"
+  ],
+  "author": "juandav",
+  "license": "UNLICENCED",
+  "bugs": {
+    "url": "https://github.com/juandav/bot-tecnology-store/issues"
+  },
+  "homepage": "https://github.com/juandav/bot-tecnology-store#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.2.3",
+    "@babel/core": "^7.2.2",
+    "@babel/node": "^7.2.2",
+    "@babel/preset-env": "^7.2.3"
+  },
+  "dependencies": {
+    "@babel/polyfill": "^7.2.5"
+  }
+}
