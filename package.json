@@ -31,6 +31,9 @@
     "@babel/preset-env": "^7.2.3"
   },
   "dependencies": {
-    "@babel/polyfill": "^7.2.5"
+    "@babel/polyfill": "^7.2.5",
+    "dotenv": "^6.2.0",
+    "pdf.js-extract": "^0.1.1",
+    "request": "^2.88.0"
   }
 }

@@ -1,9 +1,5 @@
-import { message } from "./scrap.js"
+require('dotenv').config();
+const { Scrap } = require('./scrap');
 
-class Test {
-  constructor() {
-    console.log(message)
-  }
-}
-
-new Test();
+const obj = new Scrap()
+obj.init()
