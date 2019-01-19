@@ -58,10 +58,12 @@ export class Scrap {
             let value = el.str;
             if (value.charAt(0) == '7' && value.length == 5) {
               let index = content.indexOf(el);
+              let price = Number(content[index + 3]['str'].replace(/,/g, ""))
+              let newPrice = (price * 0.1) + price;
               let deviceInfo = {
                 "code": value,
                 "description": content[index + 1]['str'],
-                "price": content[index + 3]['str'].replace(/,/g, ""),
+                "price": newPrice,
               }
               dataParsed.push(deviceInfo);
             }
