@@ -61,7 +61,7 @@ export class Scrap {
               let deviceInfo = {
                 "code": value,
                 "description": content[index + 1]['str'],
-                "price": content[index + 2]['str'] + content[index + 3]['str'],
+                "price": content[index + 3]['str'].replace(/,/g, ""),
               }
               dataParsed.push(deviceInfo);
             }

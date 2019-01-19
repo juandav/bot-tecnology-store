@@ -33,7 +33,9 @@
   "dependencies": {
     "@babel/polyfill": "^7.2.5",
     "dotenv": "^6.2.0",
+    "mysql2": "^1.6.4",
     "pdf.js-extract": "^0.1.1",
-    "request": "^2.88.0"
+    "request": "^2.88.0",
+    "sequelize": "^4.42.0"
   }
 }
