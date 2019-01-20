@@ -41,6 +41,7 @@ class DBFeeder {
         "id_tax_rules_group": "1",
         "date_add": new Date(), 
         "date_upd": new Date(),
+        "price": product.price,
       })
       .then(_ => {
         // console.log("Success Insert on DB");

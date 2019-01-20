@@ -16,6 +16,7 @@ const ProductShop = sequelize.define('ps_product_shop', {
   },
   "id_category_default": Sequelize.INTEGER,
   "id_tax_rules_group": Sequelize.INTEGER,
+  "price": Sequelize.DECIMAL,
   "date_add": Sequelize.DATE, 
   "date_upd": Sequelize.DATE,
 },
