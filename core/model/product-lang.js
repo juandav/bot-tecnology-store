@@ -20,6 +20,7 @@ const ProductLang = sequelize.define('ps_product_lang', {
     autoIncrement: false,
   },
   "name": Sequelize.STRING,
+  "description": Sequelize.TEXT,
 },
 {
   "tableName": 'ps_product_lang',

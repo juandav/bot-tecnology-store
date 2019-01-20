@@ -29,7 +29,8 @@ class DBFeeder {
         "id_product": rowInserted.id_product,
         "id_shop": "1",
         "id_lang": "1",
-        "name": product.description,
+        "name": String(product.description).slice(0, 50),
+        "description": product.description,
       })
     })
     .then(productLangRow => {
