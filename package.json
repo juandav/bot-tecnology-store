@@ -36,6 +36,6 @@
     "mysql2": "^2.0.0",
     "pdf.js-extract": "^0.1.1",
     "request": "^2.88.0",
-    "sequelize": "^4.42.0"
+    "sequelize": "^6.0.0"
   }
 }
